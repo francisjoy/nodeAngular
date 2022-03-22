@@ -9,7 +9,7 @@ build:
     build_file: none
     output_files: output/*.zip
     image_template: nodeangularspa-14.17
-    repo: https://github.com/francisjoy/DocumentApp
+    repo: https://github.com/RanjitMattamal/DocumentApp
     args:
       WORK_DIR: /appz/server/Client
 
