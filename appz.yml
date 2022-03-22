@@ -10,8 +10,6 @@ build:
     output_files: output/*.zip
     image_template: nodeangularspa-14.17
     repo: https://github.com/francisjoy/DocumentApp/tree/main/Client
-    args:
-      BUILD_DIR: /appz/server/Clinet
 
 deploy:
     context: francisjoy/DEV
@@ -22,6 +20,5 @@ deploy:
 
 
 properties:
-    WORK_DIR: /appz/server/Clinet
     revision: 1
     
