@@ -23,5 +23,5 @@ deploy:
 
 properties:
     BUILD_DIR: /appz/server/Client
-    revision: 6
+    revision: 7
     
