@@ -11,7 +11,7 @@ build:
     image_template: nodeangularspa-14.17
     repo: https://github.com/francisjoy/DocumentApp
     args:
-      BUILD_DIR: /appz/server/Client
+      WORK_DIR: /appz/server/Client
 
 deploy:
     context: francisjoy/DEV
@@ -22,6 +22,6 @@ deploy:
 
 
 properties:
-    BUILD_DIR: /appz/server/Client
+    WORK_DIR: /appz/server/Client
     revision: 7
     
