@@ -8,7 +8,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: nodeangularspa-14.17
+    image_template: nodeangular-14.17
     repo: https://github.com/francisjoy/DocumentApp/tree/main/Client
 
 deploy:
