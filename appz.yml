@@ -17,7 +17,7 @@ deploy:
     context: francisjoy/DEV
     replicas: 1
     port:
-    - 3080
+    - 8080
     
 
 
